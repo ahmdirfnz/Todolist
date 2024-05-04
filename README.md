@@ -27,6 +27,6 @@ const supabaseAnonKey = process.env.VUE_APP_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export default supabase;
-
+```
 ### Step 6: Run Localhost
 npm run serve
